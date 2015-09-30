@@ -1,5 +1,4 @@
-$(document).ready(function()
-{
+$(document).ready(function() {
 	var dataTable = $('#employee-grid').DataTable(
 	{
 		"processing": true,
@@ -25,7 +24,7 @@ $(document).ready(function()
 		stateSave: true,
 		"columnDefs":	[								//For Action Buttons (Edit and Delete button) adding in the Action Column
 							{
-								"visible": false,
+								//"visible": false,
 								"orderable": false,		//Turn off ordering
 								"searchable": false,	//Turn off searching
 								"targets": [3],			//Going to last column - 3 is the last column index because o is starting index
