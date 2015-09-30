@@ -21,7 +21,8 @@
 							<th>Employee name</th>
 							<th>Salary</th>
 							<th>Age</th>
-							<th>Action</th>
+							<th style="width: 1px;"><input type="checkbox" name="select_all" id="select_all"></th>
+							<th  style="width: 70px;">Action</th>
 						</tr>
 					</thead>
 			</table>
